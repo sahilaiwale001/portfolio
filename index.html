@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil Aiwale — Full Stack Developer</title>
+  
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <!-- Floating Particles Background -->
+  <div class="particles-container" aria-hidden="true"></div>
+  
+  <!-- Scroll to Top Button -->
+  <button id="scrollTop" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">Sahil Aiwale</div>
+
+      <div class="nav-right">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle light / dark">
+          <i id="themeIcon" class="fa-solid fa-moon"></i>
+        </button>
+
+        <button id="hamburger" class="icon-btn mobile-only" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <nav id="navMenu" class="nav-menu">
+        <a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a>
+        <a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fas fa-code"></i> Skills</a>
+        <a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i> Projects</a>
+        <a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a>
+        <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span><i class="fas fa-star"></i> Open to Opportunities</span>
+          </div>
+          <h1>Hi, I'm <span class="accent">Sahil</span> <span class="wave">👋</span><br>Full Stack Developer</h1>
+          <p class="lead">
+            I build responsive, maintainable web apps using modern front-end and back-end technologies.
+            Internship experience at Cognition Technology; strong with <span class="tech-highlight">React</span>, <span class="tech-highlight">Spring</span>, <span class="tech-highlight">Node</span> and <span class="tech-highlight">SQL</span>.
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="#projects">
+              <i class="fas fa-eye"></i> View Projects
+            </a>
+            <a class="btn outline" href="SAHIL AIWALE.docx" download>
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+
+          <div class="contact-inline">
+            <a href="mailto:sahilaiwale001@gmail.com" class="contact-link">
+              <i class="fa-solid fa-envelope"></i> sahilaiwale001@gmail.com
+            </a>
+            <a href="tel:+91998876584" class="contact-link">
+              <i class="fa-solid fa-phone"></i> +91 998876584
+            </a>
+          </div>
+
+          <div class="socials">
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="social-link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com" target="_blank" aria-label="GitHub" class="social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="social-link">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="photo-container">
+            <div class="photo-placeholder" aria-hidden="true">
+              SA
+              <div class="photo-glow"></div>
+            </div>
+            <div class="availability-dot"></div>
+          </div>
+          <div class="card-content">
+            <h3>Sahil Aiwale</h3>
+            <p class="muted">Full Stack Developer</p>
+            
+            <div class="tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Spring</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+
+            <ul class="mini-stats">
+              <li>
+                <i class="fas fa-briefcase"></i>
+                <div>
+                  <strong>Internship</strong>
+                  <span>6 months</span>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <strong>Education</strong>
+                  <span>BCA (2022–2025)</span>
+                </div>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>Pune, Maharashtra</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h4>My Journey</h4>
+            <p>
+              Passionate and results-driven Full Stack Developer with hands-on experience designing, developing,
+              and deploying responsive web applications. During a 6-month internship at Cognition Technology, I
+              contributed to scalable full-stack solutions and improved app performance by ~20%.
+            </p>
+            
+            <div class="stats">
+              <div class="stat-item">
+                <span class="stat-number" data-count="10">0</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-count="6">0</span>
+                <span class="stat-label">Months Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-count="100">0</span>
+                <span class="stat-label">% Dedication</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h4>Education & Skills</h4>
+            
+            <div class="education-item">
+              <h5>Bachelor of Computer Applications (BCA)</h5>
+              <p class="muted">University of Solapur (2022–2025)</p>
+              <p class="small">Relevant Coursework: Web Development, Database Management, Java Programming, Operating Systems</p>
+            </div>
+
+            <h4 class="skills-subtitle">Technical Skills</h4>
+            <ul class="skill-list">
+              <li><i class="fas fa-check"></i> HTML5, CSS3, JavaScript, React.js, Bootstrap</li>
+              <li><i class="fas fa-check"></i> Node.js, Express.js, Java, Spring</li>
+              <li><i class="fas fa-check"></i> MySQL, RESTful APIs, Git/GitHub</li>
+              <li><i class="fas fa-check"></i> Responsive UI Design, Problem Solving</li>
+            </ul>
+
+            <h4 class="skills-subtitle">Achievements</h4>
+            <ul class="muted-list">
+              <li><i class="fas fa-award"></i> Completed 6-month full-stack internship</li>
+              <li><i class="fas fa-award"></i> Built multiple full-stack projects</li>
+              <li><i class="fas fa-award"></i> Recognized for proactive learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section soft">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-header">
+              <i class="fab fa-react skill-icon"></i>
+              <h4>Front-End</h4>
+            </div>
+            <div class="progress" data-value="90"><span style="width:0%"></span></div>
+            <p class="meta">HTML, CSS, JavaScript, React.js, Bootstrap</p>
+            <div class="skill-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <i class="fas fa-server skill-icon"></i>
+              <h4>Back-End</h4>
+            </div>
+            <div class="progress" data-value="80"><span style="width:0%"></span></div>
+            <p class="meta">Node.js, Express.js, Java, Spring</p>
+            <div class="skill-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>Java</span>
+              <span>Spring</span>
+              <span>REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <i class="fas fa-database skill-icon"></i>
+              <h4>Databases & Tools</h4>
+            </div>
+            <div class="progress" data-value="75"><span style="width:0%"></span></div>
+            <p class="meta">MySQL, Git, REST APIs</p>
+            <div class="skill-tags">
+              <span>MySQL</span>
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Postman</span>
+              <span>VS Code</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Additional Skills -->
+        <div class="additional-skills">
+          <h3 class="subsection-title">Additional Skills</h3>
+          <div class="skill-chips">
+            <span class="skill-chip"><i class="fab fa-aws"></i> AWS Basics</span>
+            <span class="skill-chip"><i class="fas fa-paint-brush"></i> UI/UX Design</span>
+            <span class="skill-chip"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+            <span class="skill-chip"><i class="fas fa-bug"></i> Debugging</span>
+            <span class="skill-chip"><i class="fas fa-users"></i> Team Collaboration</span>
+            <span class="skill-chip"><i class="fas fa-lightbulb"></i> Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="card project">
+            <div class="project-badge">Featured</div>
+            <div class="project-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Student Management System</h3>
+            <p>Full CRUD app using MySQL, Spring & Bootstrap. Implemented JWT authentication & role-based access control with real-time notifications.</p>
+            <div class="tags">
+              <span>Java</span>
+              <span>Spring</span>
+              <span>MySQL</span>
+              <span>Bootstrap</span>
+              <span>JWT</span>
+            </div>
+            <div class="project-links">
+              <a class="link" href="#" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a class="link" href="#" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-badge">Full Stack</div>
+            <div class="project-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h3>E-commerce Platform</h3>
+            <p>Modern e-commerce solution with React frontend, Node.js backend, and MySQL database. Features include cart, checkout, and admin dashboard.</p>
+            <div class="tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MySQL</span>
+              <span>Stripe API</span>
+            </div>
+            <div class="project-links">
+              <a class="link" href="#" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a class="link" href="#" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-badge">React</div>
+            <div class="project-icon">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <h3>Task Management App</h3>
+            <p>Interactive task manager with drag-drop functionality, real-time updates, and team collaboration features built with React and Firebase.</p>
+            <div class="tags">
+              <span>React</span>
+              <span>Firebase</span>
+              <span>Material UI</span>
+              <span>Context API</span>
+            </div>
+            <div class="project-links">
+              <a class="link" href="#" target="_blank">
+                <i class="fab fa-github"></i> View Code
+              </a>
+              <a class="link" href="#" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </article>
+        </div>
+        
+        <div class="more-projects">
+          <a href="#" class="btn outline">
+            <i class="fab fa-github"></i> View All Projects on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section soft">
+      <div class="container">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-header">
+              <div>
+                <h4>Full Stack Developer Intern</h4>
+                <p class="muted">Cognition Technology, Pune — May 2025 – Dec 2025</p>
+              </div>
+              <div class="company-logo">
+                <i class="fas fa-building"></i>
+              </div>
+            </div>
+            <ul>
+              <li><i class="fas fa-check-circle"></i> Developed and maintained responsive web interfaces using Spring & React</li>
+              <li><i class="fas fa-check-circle"></i> Integrated RESTful APIs to enable dynamic data exchange</li>
+              <li><i class="fas fa-check-circle"></i> Improved app performance by 20% through optimizations and teamwork</li>
+              <li><i class="fas fa-check-circle"></i> Collaborated with cross-functional teams in agile environment</li>
+            </ul>
+            <div class="experience-tags">
+              <span>Spring Boot</span>
+              <span>React.js</span>
+              <span>REST APIs</span>
+              <span>MySQL</span>
+              <span>Git</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="certifications">
+          <h3 class="subsection-title">Certifications</h3>
+          <div class="cert-grid">
+            <div class="cert-card">
+              <i class="fab fa-js-square"></i>
+              <h5>JavaScript Advanced Concepts</h5>
+              <p class="muted">Udemy • 2024</p>
+            </div>
+            <div class="cert-card">
+              <i class="fab fa-react"></i>
+              <h5>React Front to Back</h5>
+              <p class="muted">Coursera • 2024</p>
+            </div>
+            <div class="cert-card">
+              <i class="fas fa-database"></i>
+              <h5>SQL & Database Design</h5>
+              <p class="muted">Udemy • 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="contact-lead">I'm actively looking for full-time or internship roles. Let's build something amazing together!</p>
+
+          <ul class="contact-details">
+            <li class="contact-item">
+              <i class="fa-solid fa-map-marker-alt contact-icon"></i>
+              <div>
+                <h5>Location</h5>
+                <p>Pune, Maharashtra, India</p>
+              </div>
+            </li>
+            <li class="contact-item">
+              <i class="fa-solid fa-envelope contact-icon"></i>
+              <div>
+                <h5>Email</h5>
+                <a href="mailto:sahilaiwale001@gmail.com">sahilaiwale001@gmail.com</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <i class="fa-solid fa-phone contact-icon"></i>
+              <div>
+                <h5>Phone</h5>
+                <a href="tel:+91998876584">+91 998876584</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <i class="fa-solid fa-clock contact-icon"></i>
+              <div>
+                <h5>Available For</h5>
+                <p>Full-time • Internship • Freelance</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact-socials">
+            <h5>Connect With Me</h5>
+            <div class="socials">
+              <a href="https://linkedin.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" aria-label="Contact form">
+          <div class="form-header">
+            <i class="fas fa-paper-plane"></i>
+            <h3>Send a Message</h3>
+          </div>
+          
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <div class="input-with-icon">
+              <i class="fas fa-user"></i>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <div class="input-with-icon">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <div class="input-with-icon">
+              <i class="fas fa-tag"></i>
+              <input type="text" id="subject" placeholder="Project Inquiry">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <div class="textarea-with-icon">
+              <i class="fas fa-comment"></i>
+              <textarea id="message" rows="5" placeholder="Hello Sahil, I'd like to discuss..." required></textarea>
+            </div>
+          </div>
+          
+          <button class="btn primary form-submit" type="submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p id="formMsg" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Sahil Aiwale</h3>
+          <p class="muted">Full Stack Developer</p>
+          <p>Building digital experiences with modern technologies</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="link-group">
+            <h5>Quick Links</h5>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          
+          <div class="link-group">
+            <h5>Skills</h5>
+            <a href="#skills">Frontend</a>
+            <a href="#skills">Backend</a>
+            <a href="#skills">Databases</a>
+            <a href="#skills">Tools</a>
+          </div>
+          
+          <div class="link-group">
+            <h5>Connect</h5>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="mailto:sahilaiwale001@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 Sahil Aiwale — Full Stack Developer. All rights reserved.</p>
+        <div class="small-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <span>•</span>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <span>•</span>
+          <a href="#" class="footer-link">Credits</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script1.js"></script>
+</body>
+</html>
